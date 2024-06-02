@@ -1,9 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import { motion, useInView, useAnimation } from "framer-motion";
-import jetsetjoy from '../assets/JetSetJoy.png';
-import Luke from '../assets/ptsite.png';
-import chioma from '../assets/Chioma.png';
 import plant from '../assets/PlantApp.png';
+import translate from '../assets/Translatepic.png';
+import redux from '../assets/Redux.png';
 
 const Work = () => {
     const ref = useRef(null);
@@ -56,17 +55,17 @@ const Work = () => {
 
                     {/*Grid Item 2*/}  
                     <motion.div
-                        style={{backgroundImage: `url(${jetsetjoy})`}}
+                        style={{backgroundImage: `url(${translate})`}}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                         whileHover={{ scale: 1.05 }}
                     >
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-black tracking-wider'>Holiday Booking site</span>
+                            <span className='text-2xl font-bold text-black tracking-wider'>English to Igbo ML Translator</span>
                             <div className='pt-8 text-center'>
-                                <a href="https://jet-set-joy-asem.vercel.app">
+                                <a href="https://translatorapp-4px6bmbdbq-uw.a.run.app/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/Cu19aaa/Jet-Set-Joy">
+                                <a href="https://github.com/igbodani/En-Ig_Translator">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -75,41 +74,24 @@ const Work = () => {
 
                     {/*Grid Item 3*/}  
                     <motion.div
-                        style={{backgroundImage: `url(${Luke})`}}
+                        style={{backgroundImage: `url(${redux})`}}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                         whileHover={{ scale: 1.05 }}
                     >
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-black tracking-wider'>Personal Trainer Site</span>
+                            <span className='text-2xl font-bold text-black tracking-wider'>Redux</span>
                             <div className='pt-8 text-center'>
-                                <a href="https://lukesratfordpt.vercel.app">
+                                <a href="https://redux.portneuf.cose.isu.edu/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/Cu19aaa/Luke">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <a href="https://www.proquest.com/dissertations-theses/redux-interactive-dynamic-tool-learning-np/docview/2815224080/se-2?accountid=11563">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Research Paper</button>
                                 </a>
                             </div>
                         </div>
                     </motion.div>
 
-                    {/*Grid Item 4*/}  
-                    <motion.div
-                        style={{backgroundImage: `url(${chioma})`}}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-                        whileHover={{ scale: 1.05 }}
-                    >
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-black tracking-wider'>UX/UI Designer Portfolio</span>
-                            <div className='pt-8 text-center'>
-                                <a href="https://cou-designs.vercel.app">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>
-                                <a href="https://github.com/Cu19aaa/Cou-Designs">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                </a>
-                            </div>
-                        </div>
-                    </motion.div>
+                    
                 </div>
             </div>
         </div>
